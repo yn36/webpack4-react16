@@ -2,7 +2,7 @@
 
 # 一、初始化项目
 ###  首先执行 ``npm init -y`` ，根目录会出现 `package.json`文件，如下图：
-<img src="./mdimages/package.jpg">
+<img src="https://github.com/yn36/webpack4-react16/blob/master/mdimages/package.jpg">
 
 
 ## 1、 安装webpack基本包
@@ -19,9 +19,9 @@ console.log("hello world")
 
 在终端执行 `npm run build` ，可以看到在根目录生成了 `dist/main.js` 的打包文件，这是 `webpack4.x` 打包默认找 `src/index.js` 打包入口，如下图：
 
-<img src="./mdimages/runbuild.jpg">
+<img src="https://github.com/yn36/webpack4-react16/blob/master/mdimages/runbuild.jpg">
 
-<img src="./mdimages/1572333725542.jpg">
+<img src="https://github.com/yn36/webpack4-react16/blob/master/mdimages/1572333725542.jpg">
 
 ## 2、**开始正式配置webpack**
 
@@ -175,7 +175,7 @@ module.exports = webpackMerge(baseWebpackConfig,{
 ```
 ### 执行npm start，你会看到配置的资源和html模板已经被webpack构建
 ### 这时候浏览器打开http://localhost:3000，看到src/index.js的内容执行了
-<img src="./mdimages/1572338108607.jpg">
+<img src="https://github.com/yn36/webpack4-react16/blob/master/mdimages/1572338108607.jpg">
 
 # 
 
